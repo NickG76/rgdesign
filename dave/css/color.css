@@ -1,0 +1,24 @@
+:root{
+    --primary-color: #240642;
+    --secondary-color: #FF0066;
+    --tertiary-color: #FF00FF;
+    --quaternary-color: #FF99FF;
+    --quinary-color: #FFCCFF;
+    --senary-color: #FF66FF;
+    --septenary-color: #FF33FF;
+    --octonary-color: #FF00CC;
+    --nonary-color: #FF0099;
+    --denary-color: #FF0066;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Copperplate gothic', serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+body{
+    overflow-x: hidden;
+    color: var(--quinary-color);
+}
