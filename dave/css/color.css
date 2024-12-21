@@ -1,8 +1,8 @@
 :root {
     --primary-color: #240642;
-    --secondary-color: #ff0066;
+    --secondary-color: #4b1b7a;
     --tertiary-color: #ff00ff;
-    --quaternary-color: #ff99ff;
+    --quaternary-color: #944f94;
     --quinary-color: #ffccff;
     --senary-color: #ff66ff;
     --septenary-color: #ff33ff;
@@ -17,7 +17,32 @@
     font-family: "Copperplate gothic", serif;
     text-shadow: 0 0 1px rgba(51, 51, 51, 0.5);
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     overflow-x: hidden;
     color: var(--quinary-color);
+    background-color: var(--primary-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--quinary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--quaternary-color);
 }
