@@ -178,7 +178,7 @@
     }
     .nav-toggle {
         display: block;
-        position: sticky;
+        position: absolute;
         right: 20px;
         float: right;
         top: 0;
