@@ -1,5 +1,5 @@
 .containter {
-    width: 100vw;
+    width: 110vw;
     height: auto;
     margin: 0 auto;
     display: grid;
@@ -59,11 +59,7 @@
     z-index: 999;
     top: 10px;
 }
-.nav-link:hover {
-    color: var(--primary-color);
 
-
-}
 .nav-link:active {
     color: var(--quinary-color);
 }
@@ -71,7 +67,7 @@
     grid-area: main;
     background-color: var(--primary-color);
     padding: 10px;
-    width: 100vw;
+    width: 110vw;
     height: 130vh;
     background-image: url("../images/banner.png");
     background-size: cover;
