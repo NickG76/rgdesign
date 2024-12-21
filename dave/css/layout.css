@@ -20,7 +20,7 @@
 .nav {
     grid-area: nav;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     min-height: 60px;
     top: 0;
     overflow: hidden;
@@ -125,19 +125,17 @@
 .content-ring2 {
     grid-area: rings;
 }
-.content-ring,
-.content-ring2,
-.content-neclace {
+.content-item {
     max-width: 40%;
     min-width: 10vw;
+    text-align: center;
     padding-top: 20px;
     transition: ease-in-out 0.3s;
 }
 
-.content-neclace > img,
-.content-ring > img,
-.content-ring2 > img {
+.content-item > img {
     max-width: 20vw;
+    max-height: 400px;
     height: auto;
 }
 .content-text > h3 {
@@ -146,9 +144,7 @@
     color: var(--quinary-color);
     text-align: center;
 }
-.content-neclace > img:hover,
-.content-ring > img:hover,
-.content-ring2 > img:hover {
+.content-item > img:hover{
     opacity: 0.8;
 }
 
@@ -215,29 +211,23 @@
     .nav-link {
         display: none;
     }
+    
     .content {
-        grid-template-areas:
-            "ring"
-            "neclace"
-            "rings";
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
+    }
+   .content-item {
         width: 100vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
     }
 
-    .content-ring,
-    .content-neclace,
-    .content-ring2 {
-        max-width: 100%;
-        width: 100vw;
-    }
-    .content-ring > img:hover,
-    .content-neclace > img:hover,
-    .content-ring2 > img:hover {
-        opacity: 1;
-    }
-    .content-ring > img,
-    .content-neclace > img {
-        max-width: 80vw;
-        margin: 0 auto;
-        display: block;
-    }
 }
