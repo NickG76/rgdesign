@@ -113,15 +113,6 @@
     transition: ease-in-out 0.3s;
     flex: 1 1 500px;
 }
-.content-ring {
-    grid-area: ring;
-}
-.content-neclace {
-    grid-area: neclace;
-}
-.content-ring2 {
-    grid-area: rings;
-}
 .content-item {
     max-width: 40%;
     min-width: 10vw;
@@ -143,10 +134,23 @@
 }
 .content-item > img:hover{
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .nav-toggle {
     display: none;
+}
+.footer {
+    grid-area: footer;
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    z-index: 999;
 }
 
 @media screen and (min-width: 200px) and (max-width: 961px) {
