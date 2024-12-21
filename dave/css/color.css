@@ -24,6 +24,8 @@ body {
     overflow-x: hidden;
     color: var(--quinary-color);
     background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
 }
 
 /* width */

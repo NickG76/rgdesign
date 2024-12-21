@@ -105,6 +105,8 @@
     flex-wrap: wrap;
     grid-gap: 10px;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 .content > * {
     margin: 10px;
