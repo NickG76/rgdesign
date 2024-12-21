@@ -229,5 +229,10 @@
         align-items: center;
         min-width: 100vw;
     }
+    .content-item > img {
+        max-width: 100vw;
+        max-height: 600px;
+        height: auto;
+    }
 
 }
