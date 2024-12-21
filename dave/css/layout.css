@@ -127,7 +127,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 600px) {
     * {
         margin: 0;
         padding: 0;
@@ -171,19 +171,20 @@
         width: 100vw;
     }
     .content-left {
-        max-width: 100%;
+        max-width: 100vw;
     }
     .content-right {
-        max-width: 100%;
+        max-width: 100vw;
     }
     .nav-toggle {
         display: block;
-        position: absolute;
+        position: sticky;
         right: 20px;
         float: right;
         top: 0;
         padding: 10px;
         cursor: pointer;
         font-size: 30px;
+        overflow: hidden;
     }
 }
