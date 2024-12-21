@@ -133,6 +133,9 @@
         padding: 0;
         box-sizing: border-box;
     }
+    .container {
+        width: 100vw;
+    }
     .banner {
         width: 110vw;
         height: 100vh;
@@ -149,12 +152,11 @@
 
     .banner-text {
         padding-left: 0;
-        width: 50vw;
+        width: 100vw;
         padding-top: 30px;
         padding-left: 60px;
         position: absolute;
         font-size: 5px;
-
         max-height: 100px;
         top: 150px;
     }
@@ -166,6 +168,7 @@
         flex-direction: column;
         gap: 10px;
         /*padding: 10px;*/
+        width: 100vw;
     }
     .content-left {
         max-width: 100%;
