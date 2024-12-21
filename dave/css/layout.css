@@ -61,7 +61,8 @@
 }
 .nav-link:hover {
     color: var(--primary-color);
-    font-weight: 600;
+
+
 }
 .nav-link:active {
     color: var(--quinary-color);
