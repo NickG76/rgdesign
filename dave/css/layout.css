@@ -126,6 +126,7 @@
 .nav-toggle {
     display: none;
 }
+
 @media screen and (max-width: 600px) {
     * {
         margin: 0;
@@ -153,7 +154,9 @@
         padding-left: 60px;
         position: absolute;
         font-size: 5px;
-        margin-top: -100px;
+
+        max-height: 100px;
+        top: 150px;
     }
     .nav-link {
         display: none;
