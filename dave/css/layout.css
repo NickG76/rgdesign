@@ -20,7 +20,7 @@
 .nav {
     grid-area: nav;
     text-align: center;
-    padding-bottom: 7vh;
+    padding: 10px 0;
     min-height: 60px;
     top: 0;
     overflow: hidden;
@@ -29,6 +29,7 @@
     left: 0;
     width: 100vw;
     z-index: 999;
+    font-size: 30px;
 }
 .nav-left {
     text-align: center;
@@ -50,7 +51,7 @@
 .nav-link {
     text-decoration: none;
     color: var(--quinary-color);
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     display: inline-block;
     font-size: 1rem;
     cursor: pointer;
@@ -70,7 +71,7 @@
     background-color: var(--primary-color);
     padding: 10px;
     width: 100vw;
-    height: 125vh;
+    height: 130vh;
     background-image: url("../images/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
