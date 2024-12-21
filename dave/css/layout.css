@@ -127,7 +127,9 @@
     left: 0;
     z-index: 0;
 }*/
-
+.nav-toggle {
+    display: none;
+}
 @media screen and (max-width: 600px) {
     * {
         margin: 0;
@@ -154,7 +156,7 @@
         padding-left: -10vw;
         position: absolute;
         font-size: 15px;
-        margin-top: -20px;
+        margin-top: -100px;
     }
     .nav-link {
         display: none;
