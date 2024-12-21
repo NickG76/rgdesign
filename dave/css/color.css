@@ -1,24 +1,23 @@
-:root{
+:root {
     --primary-color: #240642;
-    --secondary-color: #FF0066;
-    --tertiary-color: #FF00FF;
-    --quaternary-color: #FF99FF;
-    --quinary-color: #FFCCFF;
-    --senary-color: #FF66FF;
-    --septenary-color: #FF33FF;
-    --octonary-color: #FF00CC;
-    --nonary-color: #FF0099;
-    --denary-color: #FF0066;
+    --secondary-color: #ff0066;
+    --tertiary-color: #ff00ff;
+    --quaternary-color: #ff99ff;
+    --quinary-color: #ffccff;
+    --senary-color: #ff66ff;
+    --septenary-color: #ff33ff;
+    --octonary-color: #ff00cc;
+    --nonary-color: #ff0099;
+    --denary-color: #ff0066;
 }
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Copperplate gothic', serif;
-    font-size: 1.2em;
-    text-shadow: 0 0 1px rgba(51,51,51,0.5);
+    font-family: "Copperplate gothic", serif;
+    text-shadow: 0 0 1px rgba(51, 51, 51, 0.5);
 }
-body{
+body {
     overflow-x: hidden;
     color: var(--quinary-color);
 }
